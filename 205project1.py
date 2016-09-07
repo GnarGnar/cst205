@@ -3,6 +3,7 @@ Abstract: Goes through 9 images finding the median value of its pixels and putti
 Author: Kieran Burke
 Date:9/3/16
 
+Takes a while to run but it works
 """
 
 from PIL import Image
@@ -50,11 +51,7 @@ pixel_values9 = list(myimage9.getdata())
 
 for x in range(0,len(pixel_values1)-1):
 	pixels.append(pixel_values1[x])
-	
-	print("Working on it1")
 	pixels.append(pixel_values2[x])
-	
-	print("Working on it2")
 	pixels.append(pixel_values3[x])
 	pixels.append(pixel_values4[x])
 	pixels.append(pixel_values5[x])
