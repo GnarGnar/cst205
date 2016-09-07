@@ -61,21 +61,10 @@ for x in range(0,len(pixel_values1)-1):
 	pixels.append(pixel_values9[x])
 	pixels.sort()
 	newImagePixels.append(pixels[4])
-	pixels.pop()
-	pixels.pop()
-	pixels.pop()
-	pixels.pop()
-	pixels.pop()
-	pixels.pop()
-	pixels.pop()
-	pixels.pop()
-	pixels.pop()
-	print("Working on it")
+	for x in range(0,9)
+		pixels.pop()
+	print("Working on it...")
+	print("Working on it..")
 	
-	
-
-	
-
-
 myimage10.putdata(newImagePixels)
 myimage10.show()
