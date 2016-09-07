@@ -1,0 +1,14 @@
+from PIL import Image
+
+
+myimage1= Image.open(1.png)
+myimage2= Image.open(2.png)
+myimage3= Image.open(3.png)
+myimage4= Image.open(4.png)
+myimage5= Image.open(5.png)
+myimage6= Image.open(6.png)
+myimage7= Image.open(7.png)
+myimage8= Image.open(8.png)
+myimage9= Image.open(9.png)
+
+for x in range(0,512)
