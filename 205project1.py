@@ -61,7 +61,7 @@ for x in range(0,len(pixel_values1)-1):
 	pixels.append(pixel_values9[x])
 	pixels.sort()
 	newImagePixels.append(pixels[4])
-	for x in range(0,9)
+	for x in range(0,9):
 		pixels.pop()
 	print("Working on it...")
 	print("Working on it..")
